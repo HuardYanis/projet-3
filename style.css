@@ -1,3 +1,4 @@
+/*page 1*/
 body{
 	width: 900px;
 	margin: auto;
@@ -13,9 +14,12 @@ header h1 {
     color: #FCCA46;
     font-size: 3em;
     margin: 0;
-    font-weight: bold; 
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; 
 }
-
+header a {
+    text-decoration: none;
+}
 section{
     display: flex;
     flex-wrap: wrap;
@@ -28,11 +32,17 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     padding: 0.5em 0.5em 0 0.5em;
+    position: fixed;
+    left: 300px;
+    bottom: 0;
+    width: 900px;
 }
 footer a {
 	text-decoration: none;
 	color: #FCCA46;
-	font-size: 2em;
+	font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
 }
 .menu {
     height: 25em;
@@ -82,10 +92,12 @@ input{
     border-radius: 15px;
     font-size: 29px;
     letter-spacing: 7px; 
+    margin-bottom: 4em;
 }
 #proch a{
     text-decoration: none;
     color: #FCCA46;
+    font-family: 'Roboto', sans-serif;
 }
 #proch p {
     margin: auto;
@@ -190,4 +202,12 @@ footer a:hover {
   50% {transform: rotate(15deg);}
   75% {transform: rotate(-5deg);}
   100% {transform: rotate(0deg);}
+}
+/*Mention legal*/
+#textment {
+    width: 45%;
+    text-align: center;
+    box-shadow: 0px 0px 5px 3px #C0C0C0;
+    margin: 1em 0 2em 0;
+    padding: 1em 1em 1em 1em;
 }
