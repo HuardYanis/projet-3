@@ -229,16 +229,16 @@ footer a:hover {
 }
 #entrée1 {
     position: absolute;
-    left: 36em;
-    top: 26.2em;
+    left: 45.2em;
+    top: 26.5em;
     /* background-color: blue; */
     width: 70px;
     height: 20px;
-    background: linear-gradient(to top, black 0%, black 4px, transparent 5px) no-repeat;
+    background: linear-gradient(to top, black 0%, black 2px, transparent 1px) no-repeat;
     background-size: 0 100%;
 }
 #entrée1:hover {
-    animation: souligne 1s both;
+    animation: souligne 0.3s both;
 }
 @keyframes souligne{
   from {
