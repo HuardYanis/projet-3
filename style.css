@@ -211,3 +211,50 @@ footer a:hover {
     margin: 1em 0 2em 0;
     padding: 1em 1em 1em 1em;
 }
+/*Menu enchantée*/
+
+#logo1 {
+    background-image: url(menus/menu-1.png);
+    width: 63%;
+    height: 50em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5em;
+}
+#entrée1 {
+    position: absolute;
+    left: 36em;
+    top: 26.2em;
+    /* background-color: blue; */
+    width: 70px;
+    height: 20px;
+    background: linear-gradient(to top, black 0%, black 4px, transparent 5px) no-repeat;
+    background-size: 0 100%;
+}
+#entrée1:hover {
+    animation: souligne 1s both;
+}
+@keyframes souligne{
+  from {
+    background-size: 0 100%;
+  }
+   25%{
+    background-size: 25% 100%;
+   }
+   50%{
+    background-size: 50% 100%;
+   }
+   75% {
+    background-size: 75% 100%;
+   }
+   100% {
+    background-size: 100% 100%;
+   }
+}
+
