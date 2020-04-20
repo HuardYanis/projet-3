@@ -1,6 +1,6 @@
 /*page 1*/
 body{
-	width: 900px;
+	width: 60%;
 	margin: auto;
 }
 header {
@@ -32,7 +32,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     padding: 0.5em 0.5em 0 0.5em;
-    position: fixed;
+    /*position: fixed;*/
     left: 300px;
     bottom: 0;
     width: 900px;
@@ -41,8 +41,8 @@ footer a {
 	text-decoration: none;
 	color: #FCCA46;
 	font-size: 23px;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 8px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 8px;
 }
 .menu {
     height: 25em;
@@ -58,14 +58,14 @@ footer a {
 .menu img{
     width: 20em;
 }
-.menu > img {
+.menu  img {
     transition: all 1s;
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     -o-transition: all 1s;
 }
  
-.menu:hover > img {
+.menu:hover  img {
     transform: scale(1.2);
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -212,49 +212,72 @@ footer a:hover {
     padding: 1em 1em 1em 1em;
 }
 /*Menu enchantée*/
-
-#logo1 {
-    background-image: url(menus/menu-1.png);
-    width: 63%;
-    height: 50em;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-#menu {
-    display: flex;
-    flex-direction: column;
+#titremenu1 {
     text-align: center;
-    margin-bottom: 5em;
-}
-#entrée1 {
-    position: absolute;
-    left: 45.2em;
-    top: 26.5em;
-    /* background-color: blue; */
-    width: 70px;
-    height: 20px;
-    background: linear-gradient(to top, black 0%, black 2px, transparent 1px) no-repeat;
-    background-size: 0 100%;
-}
-#entrée1:hover {
-    animation: souligne 0.3s both;
-}
-@keyframes souligne{
-  from {
-    background-size: 0 100%;
-  }
-   25%{
-    background-size: 25% 100%;
-   }
-   50%{
-    background-size: 50% 100%;
-   }
-   75% {
-    background-size: 75% 100%;
-   }
-   100% {
-    background-size: 100% 100%;
-   }
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #353535;
 }
 
+#menu1 {
+  background-color: #fcdfdb;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3em;
+}
+#entete1 {
+  text-align: center;
+  width: 100%;
+}
+#entete1 h2 {
+  font-family: 'Devonshire', cursive;
+  font-size: 2.5em;
+  margin: 0;
+}
+#logotop1{
+  width: 9%;
+  margin: 6% 0 0 0;
+}
+
+.artic1{
+  width: 100%;
+}
+.artic1 h4 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3em;
+}
+.artic1 h4 p {
+  background: linear-gradient(to top, black 0%, black 1px, transparent 1px) no-repeat;
+  background-size: 0 100%;
+  transition: 0.3s;
+}
+.artic1 h4 p:hover {
+  background-size: 100% 100%;
+}
+.artic1 h4 img{
+  width: 27%;
+  margin: auto;
+}
+.descr {
+display: flex;
+justify-content: space-between;
+width: 83%;
+line-height: 0em;
+margin: auto;
+}
+
+#logobot1 {
+  width: 5%;
+  margin-top: ;
+}
+
+#footer1 {
+  width: 100%;
+}
+
+#footer1 > h2:nth-child(1) {
+  text-align: center;
+  font-family: 'Devonshire', cursive;
+  font-size: 2em;
+}
