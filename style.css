@@ -32,7 +32,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     padding: 0.5em 0.5em 0 0.5em;
-    /*position: fixed;*/
+    position: fixed;
     left: 300px;
     bottom: 0;
     width: 900px;
@@ -224,6 +224,7 @@ footer a:hover {
   width: 80%;
   margin: auto;
   margin-bottom: 3em;
+  font-family: "segoe print", "comic sans ms", serif ;
 }
 #entete1 {
   text-align: center;
@@ -289,6 +290,7 @@ margin: auto;
   box-shadow: 0px 0px 5px 3px #C0C0C0;
   padding-top: 6%;
   padding-bottom: 6%;
+  font-family: serif ;
 }
 #titremenu2 {
     text-align: center;
@@ -336,6 +338,7 @@ margin: auto;
   box-shadow: 0px 0px 5px 3px #C0C0C0;
   padding-top: 6%;
   padding-bottom: 6%;
+  font-family: "segoe print", "comic sans ms", serif ;
 }
 
 /*la palette du gout*/
@@ -358,4 +361,5 @@ margin: auto;
   box-shadow: 0px 0px 5px 3px #C0C0C0;
   padding-top: 6%;
   padding-bottom: 6%;
+  font-family: "segoe print", "comic sans ms", serif ;
 }
