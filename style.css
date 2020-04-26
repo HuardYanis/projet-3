@@ -1,14 +1,15 @@
 /*page 1*/
 body{
-	width: 60%;
+	width: 100%;
 	margin: auto;
 }
 header {
     background-color: #569C87;
-    width: 100%;
+    width: 80%;
     height: 6em;
     text-align: center;
     padding: 3em 0 0 0;
+    margin: auto;
 }
 header h1 {
     color: #FCCA46;
@@ -33,9 +34,9 @@ footer {
     justify-content: space-between;
     padding: 0.5em 0.5em 0 0.5em;
     position: fixed;
-    left: 300px;
+    left: 10%;
     bottom: 0;
-    width: 900px;
+    width: 80%;
 }
 footer a {
 	text-decoration: none;
@@ -81,17 +82,19 @@ input{
 }
 #search {
     background-color: lightgrey;
+    width: 80%;
+    height: 2em;
+    margin: auto;
 }
 #proch{
     background: #569C87;
-    margin: 1em;
-    width: 41%;
+    width: 30%;
     height: 2em;
     text-align: center;
     padding: 20px 0 0 27px;
     border-radius: 15px;
     font-size: 29px;
-    letter-spacing: 7px; 
+    letter-spacing: 7px;
     margin-bottom: 4em;
 }
 #proch a{
@@ -213,17 +216,19 @@ footer a:hover {
 }
 /*Menu enchantée*/
 #titremenu1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 2.5em;
-    color: #353535;
+text-align: center;
+font-weight: bold;
+font-size: 2.5em;
+color: #353535;
+width: 60%;
+margin: 2% 20% 2% 20%;
 }
 
 #menu1 {
   background-color: #fcdfdb;
-  width: 80%;
+  width: 60%;
   margin: auto;
-  margin-bottom: 3em;
+  margin-bottom: 10%;
   font-family: "segoe print", "comic sans ms", serif ;
 }
 #entete1 {
@@ -248,12 +253,12 @@ footer a:hover {
   justify-content: space-around;
   font-size: 1.3em;
 }
-.artic1 h4 p {
+.artic1 h4  {
   background: linear-gradient(to top, black 0%, black 1px, transparent 1px) no-repeat;
   background-size: 0 100%;
   transition: 0.3s;
 }
-.artic1 h4 p:hover {
+.artic1 h4:hover {
   background-size: 100% 100%;
 }
 .artic1 h4 img{
@@ -270,7 +275,6 @@ margin: auto;
 
 #logobot1 {
   width: 5%;
-  margin-top: ;
 }
 
 #footer1 {
@@ -284,9 +288,9 @@ margin: auto;
 }
 /* Le chic a la francaise*/
 #menu2 {
-  width: 80%;
+  width: 60%;
   margin: auto;
-  margin-bottom: 3em;
+  margin-bottom: 10%;
   box-shadow: 0px 0px 5px 3px #C0C0C0;
   padding-top: 6%;
   padding-bottom: 6%;
@@ -332,9 +336,9 @@ margin: auto;
 
 }
 #menu3 {
-  width: 80%;
+  width: 60%;
   margin: auto;
-  margin-bottom: 3em;
+  margin-bottom: 10%;
   box-shadow: 0px 0px 5px 3px #C0C0C0;
   padding-top: 6%;
   padding-bottom: 6%;
@@ -355,11 +359,29 @@ margin: auto;
   font-family: 'Kaushan Script', cursive;
 }
 #menu4 {
-  width: 80%;
+  width: 60%;
   margin: auto;
-  margin-bottom: 3em;
+  margin-bottom: 10%;
   box-shadow: 0px 0px 5px 3px #C0C0C0;
   padding-top: 6%;
   padding-bottom: 6%;
   font-family: "segoe print", "comic sans ms", serif ;
+}
+.titreimg {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.titreimg img{
+    width: 26%;
+    height: 0%;
+    margin-top: 2.5em;
+}
+#menuaccueil {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 3em;
+  margin-top: 2em;
+  padding-bottom: 0%;
+  font-family: serif ;
 }
