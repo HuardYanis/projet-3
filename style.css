@@ -450,4 +450,13 @@ width: 6%;
 #titremenu1 {
 font-size: 1.5em;
 }
+#titremenu2 {
+font-size: 1.5em;
+}
+#entete2 h2 {
+font-size: 1.5em;
+}
+#menu2 {
+width: 100%;
+}
 }
