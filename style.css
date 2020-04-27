@@ -386,7 +386,7 @@ margin: auto;
   font-family: serif ;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 360px) {
 header{
   width: 100%;
 }
@@ -394,7 +394,7 @@ header{
 width: 100%;
 }
 .menu {
-height: 23em;
+height: 14em;
 width: 100%;
 }
 #menuaccueil {
@@ -404,6 +404,8 @@ width: 45%;
 }
 #proch {
 width: 55%;
+padding: 4% 9% 0% 9%;
+font-size: inherit;
 }
 footer {
   left: 0%;
