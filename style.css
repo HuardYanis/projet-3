@@ -385,7 +385,7 @@ margin: auto;
   padding-bottom: 0%;
   font-family: serif ;
 }
-@media screen and (max-width: 375px) {
+@media only screen and (max-width:376px) {
 header {
   width: 100%;
 }
