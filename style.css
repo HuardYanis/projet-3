@@ -252,6 +252,7 @@ margin: 2% 20% 2% 20%;
   display: flex;
   justify-content: space-around;
   font-size: 1.3em;
+
 }
 .artic1 h4  {
   background: linear-gradient(to top, black 0%, black 1px, transparent 1px) no-repeat;
@@ -437,7 +438,6 @@ font-size: 1.5em;
 .descr p {
 font-size: smaller;
 }
-}
 .artic1 h4 {
 font-size: 1em;
 }
@@ -463,6 +463,9 @@ width: 100%;
 .artic1 h4 {
 margin: 9% 0 0 0;
 }
+#lechicentrée {
+  font-size: 0.8em;
+}
 /* les delices des papilles*/
 #menu3 {
 width: 100%;
@@ -481,5 +484,9 @@ font-size: 2em;
 /*la lette du goût*/
 #menu4 {
   width: 100%;
+}
+/*mention légale*/ 
+#textment {
+width: 80%;
 }
 }
