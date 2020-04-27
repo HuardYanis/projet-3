@@ -387,6 +387,7 @@ margin: auto;
 }
 
 @media only screen and (max-width: 360px) {
+/*index*/
 header{
   width: 100%;
 }
@@ -418,5 +419,35 @@ font-size: 85%;
 }
 #search {
   width: 100%;
+}
+/*la note enchantée */
+.descr {
+  line-height: initial;
+  flex-direction: column;
+}
+#menu1 {
+width: 100%;
+}
+.prix {
+  margin: auto;
+}
+#entete1 h2 {
+font-size: 1.5em;
+}
+.descr p {
+font-size: smaller;
+}
+}
+.artic1 h4 {
+font-size: 1em;
+}
+#footer1 > h2:nth-child(1) {
+font-size: x-large;
+}
+#logobot1 {
+width: 6%;
+}
+#titremenu1 {
+font-size: 1.5em;
 }
 }
