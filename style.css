@@ -450,6 +450,7 @@ width: 6%;
 #titremenu1 {
 font-size: 1.5em;
 }
+/*le chic a la francaise*/
 #titremenu2 {
 font-size: 1.5em;
 }
@@ -458,5 +459,27 @@ font-size: 1.5em;
 }
 #menu2 {
 width: 100%;
+}
+.artic1 h4 {
+margin: 9% 0 0 0;
+}
+/* les delices des papilles*/
+#menu3 {
+width: 100%;
+}
+.descr3 {
+line-height: 0em;
+line-height: initial;
+flex-direction: column;
+}
+#entete3 h2 {
+font-size: 2em;
+}
+#deliceentré {
+  font-size: 0.9em;
+}
+/*la lette du goût*/
+#menu4 {
+  width: 100%;
 }
 }
