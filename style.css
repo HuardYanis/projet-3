@@ -385,3 +385,30 @@ margin: auto;
   padding-bottom: 0%;
   font-family: serif ;
 }
+@media screen and (max-width: 375px) {
+header {
+  width: 100%;
+}
+#search {
+  width: 100%;
+}
+#menuaccueil {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  height: 35em;
+  width: 25em;
+}
+.menu img {
+  width: 25em;
+}
+footer {
+  left: 0%;
+  width: 100%;
+}
+#proch {
+  width: 39%;
+}
+}
