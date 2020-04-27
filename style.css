@@ -385,30 +385,34 @@ margin: auto;
   padding-bottom: 0%;
   font-family: serif ;
 }
+
 @media only screen and (max-width: 600px) {
-header {
+header{
   width: 100%;
 }
-#search {
-  width: 100%;
+.menu img {
+width: 100%;
+}
+.menu {
+height: 23em;
+width: 100%;
 }
 #menuaccueil {
-  width: 35%;
+width: 45%;
   display: flex;
   flex-direction: column;
 }
-.menu {
-  height: 35em;
-  width: 25em;
-}
-.menu img {
-  width: 25em;
+#proch {
+width: 55%;
 }
 footer {
   left: 0%;
   width: 100%;
 }
-#proch {
-  width: 39%;
+footer a {
+font-size: 85%;
+}
+#search {
+  width: 100%;
 }
 }
