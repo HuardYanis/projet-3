@@ -410,6 +410,8 @@ font-size: inherit;
 footer {
   left: 0%;
   width: 100%;
+  padding: 0;
+  height: 4%;
 }
 footer a {
 font-size: 85%;
