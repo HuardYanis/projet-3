@@ -93,7 +93,6 @@ input{
 }
 #proch{
     background: #569C87;
-    width: 30%;
     height: 2em;
     text-align: center;
     padding: 20px 0 0 27px;
@@ -113,7 +112,7 @@ input{
 #proch span{
     opacity: 0;
 }
-#proch:hover #susp1 {
+#proch #susp1 {
  animation: suspention 3s linear infinite;
 }
 @keyframes suspention {
@@ -130,7 +129,7 @@ input{
  opacity: 0;
  }
 }
-#proch:hover #susp2 {
+#proch #susp2 {
  animation: suspention2 3s linear infinite;
 }
 @keyframes suspention2 {
@@ -153,7 +152,7 @@ input{
   opacity: 0;
  }
 }
-#proch:hover #susp3 {
+#proch #susp3 {
  animation: suspention3 3s linear infinite;
 }
 @keyframes suspention3 {
@@ -392,7 +391,7 @@ margin: auto;
   font-family: serif ;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 420px) {
 /*index*/
 header{
   width: 100%;
