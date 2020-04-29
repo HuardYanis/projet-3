@@ -391,6 +391,34 @@ margin: auto;
   font-family: serif ;
 }
 
+@media only screen and (max-width: 770px) {
+header{
+  width: 100%;
+}
+#menu1 {
+width: 100%;
+}
+#menu2 {
+width: 100%;
+}
+#menu3 {
+width: 100%;
+}
+#menu4 {
+width: 100%;
+}
+footer {
+  width: 100%;
+  left: 0;
+}
+#search {
+  width: 100%;
+}
+}
+
+
+
+
 @media only screen and (max-width: 420px) {
 /*index*/
 header{
@@ -499,108 +527,4 @@ width: 80%;
   #proch {
     letter-spacing: 0;
   }
-}
-@media only screen and (max-width:770px) {
-
-header{
-  width: 100%;
-}
-.menu img {
-width: 100%;
-height: 100%;
-}
-.menu {
-height: 23em;
-width: 100%;
-}
-#menuaccueil {
-width: 45%;
-  display: flex;
-  flex-direction: column;
-}
-#proch {
-width: 55%;
-padding: 4% 9% 0% 9%;
-font-size: inherit;
-}
-footer {
-  left: 0%;
-  width: 100%;
-  padding: 0;
-  height: 4%;
-}
-footer a {
-font-size: 85%;
-}
-#search {
-  width: 100%;
-}
-/*la note enchantée */
-.descr {
-  line-height: initial;
-  flex-direction: column;
-}
-#menu1 {
-width: 100%;
-}
-.prix {
-  margin: auto;
-}
-#entete1 h2 {
-font-size: 1.5em;
-}
-.descr p {
-font-size: smaller;
-}
-.artic1 h4 {
-font-size: 1em;
-}
-#footer1 > h2:nth-child(1) {
-font-size: x-large;
-}
-#logobot1 {
-width: 6%;
-}
-#titremenu1 {
-font-size: 1.5em;
-}
-/*le chic a la francaise*/
-#titremenu2 {
-font-size: 1.5em;
-}
-#entete2 h2 {
-font-size: 1.5em;
-}
-#menu2 {
-width: 100%;
-}
-.artic1 h4 {
-margin: 4% 0 0 0;
-}
-#lechicentrée{
-  font-size: 0.8em;
-}
-/* les delices des papilles*/
-#menu3 {
-width: 100%;
-}
-.descr3 {
-line-height: 0em;
-line-height: initial;
-flex-direction: column;
-}
-#entete3 h2 {
-font-size: 2em;
-}
-#deliceentré {
-  font-size: 0.9em;
-}
-/*la lette du goût*/
-#menu4 {
-  width: 100%;
-}
-/*mention légale*/ 
-#textment {
-width: 80%;
-}
 }
