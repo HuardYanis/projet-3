@@ -396,13 +396,24 @@ margin: auto;
   width: 37%;
 }
 }
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1900px) {
 #menuaccueil {
-  width: 50%;
+  width: 55%;
+}
 }
 @media only screen and (max-width: 1440px) {
 #menuaccueil {
   width: 66%;
+}
+}
+@media only screen and (max-width: 1030px) {
+#menuaccueil {
+  width: 73%;
+}
+}
+@media only screen and (max-width: 880px) {
+#menuaccueil {
+  width: 75%;
 }
 }
 @media only screen and (max-width: 770px) {
